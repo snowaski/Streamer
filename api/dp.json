@@ -1,0 +1,30 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This a /a/ stream",
+      "id": 1
+    },
+    {
+      "title": "Other Stream",
+      "description": "This a another stream",
+      "id": 2
+    },
+    {
+      "title": "A New Stream Logged In",
+      "description": "I actually logged out",
+      "id": 5
+    },
+    {
+      "title": "Will this work?",
+      "description": "probs not.",
+      "id": 6
+    },
+    {
+      "title": "Created",
+      "description": "userId?",
+      "userId": "112927094009285147022",
+      "id": 7
+    }
+  ]
+}
