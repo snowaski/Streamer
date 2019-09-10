@@ -20,9 +20,8 @@ class StreamEdit extends React.Component {
         return (
             <div>
                 <h3>Edit a Stream</h3>
-                <StreamForm 
-                    //this is wrong but I don't know how else to fix it 
-                    initialValues={this.props.stream}
+                <StreamForm  
+                    initialValues={_.pick(this.props.stream, 'title', 'description')}
                     onSubmit={this.onSubmit}
                 />
             </div>
